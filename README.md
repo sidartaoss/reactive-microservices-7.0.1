@@ -19,6 +19,12 @@ This project is based mainly on the references below.
 
 ## The Micro-Trader Application
 
+
+## Micro-Trader Dashboard
+
+The quote generator simulates the evolution of the values of 3 companies. Every quote is sent on the event bus. It also exposes a Http endpoint to retrieve the last quote of each company.
+
+
 ### Task - Deploying the dashboard
 
 We also need to deploy the dashboard. In the browser, let's enter the associated Ingress route: http://micro-trader-dashboard-reactive-microservices.sidartasilva.io. By appending "/admin", we should see the dashboard in the Vert.x Console.
